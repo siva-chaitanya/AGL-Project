@@ -1,0 +1,8 @@
+<h2>{{genderDetails[0]}}</h2>
+<ul>
+  <li *ngFor="let maleCatList of maleCatList | sortfilter">{{maleCatList}}</li>
+</ul>
+<h2>{{genderDetails[1]}}</h2>
+<ul>
+  <li *ngFor="let femaleCatList of femaleCatList | sortfilter">{{femaleCatList}}</li>
+</ul>
